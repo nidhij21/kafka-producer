@@ -23,7 +23,7 @@ public class KafkaProducerApplication {
 		String value = "SampleValue";
 		
 		Properties prop = new Properties();
-		prop.put("bootstrap.servers","10.67.171.30:9092");
+		prop.put("bootstrap.servers","apache-kafka:9092");
 		prop.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		prop.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		
